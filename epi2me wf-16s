@@ -1,0 +1,3 @@
+
+##Lanzar epi2me wf-16s, a traves de nextflow, para analizar datos de Oxford Nanopore.
+nextflow run epi2me-labs/wf-16s --fastq barcode04 --out_dir results_barcode04 -resume
