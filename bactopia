@@ -1,0 +1,8 @@
+##activar el perfil bactopia
+conda activate bactopia
+##lanzar ejemplo en bactopia
+bactopia -profile test,docker -resume
+##Ultimo día, lanzar un bactopia real preparando un FOFN
+bactopia prepare --path "fastq folder"
+##Y ahora uso ese FOFN para lanzar bactopia
+bactopia -profile docker 
